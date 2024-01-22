@@ -1,0 +1,44 @@
+.tasklist {
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.tasklist ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tasklist li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 8px 0;
+}
+
+.tasklist li:last-child {
+  border-bottom: none;
+}
+
+.filtered-option {
+  display: flex;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.right button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.right button:hover {
+  background-color: #d32f2f;
+}
